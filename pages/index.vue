@@ -36,7 +36,7 @@
         muted
         poster="https://assets.codepen.io/6093409/river.jpg"
       >
-        <source src="/schlieren1.mp4" type="video/mp4" />
+        <source src="~/static/schlieren1.mp4" type="video/mp4" />
       </video>
 
       <div class="content">
@@ -76,7 +76,7 @@
         muted
         poster="https://assets.codepen.io/6093409/river.jpg"
       >
-        <source src="/schlieren2.mp4" type="video/mp4" />
+        <source src="~/static/schlieren2.mp4" type="video/mp4" />
       </video>
 
       <div class="content">
@@ -123,7 +123,7 @@
         muted
         poster="https://assets.codepen.io/6093409/river.jpg"
       >
-        <source src="/schlieren3.mp4" type="video/mp4" />
+        <source src="~/static/schlieren3.mp4" type="video/mp4" />
       </video>
 
       <div class="content">
