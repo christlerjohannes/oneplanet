@@ -11,14 +11,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'oneplanet',
+    title: 'ONE PLANET',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'ONE PLANET, ONE VISION. Gemeinsam gegen den Klimawandel. Für eine nachhaltige Zukunft. Mittels Kommunikation, Kooperation und Konnektivität.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -32,6 +32,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/vue-aos.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

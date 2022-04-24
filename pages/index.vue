@@ -1,25 +1,19 @@
 <template>
   <div id="page">
     <div class="header">
-      <h1>ONE PLANET</h1>
+      <h1>ONE PLANET. ONE VISION</h1>
 
-      <p class="bold">
-        ONE PLANET, ONE VISION: Eine prosperierende Zukunft ist möglich – für
-        uns alle. Auch vor dem Hintergrund wachsender Weltbevölkerung und
-        steigendem Ressourcenbedarf.
-      </p>
+      <vue-aos animation-class="fadeIn animated">
+    <div>{{ msg }}</div>
+  </vue-aos>
+  <div v-vue-aos="{animationClass:'fadeIn animated'}">{{ msg }}</div>
 
-      <p>
-        Indem wir anfangen, unsere Lebensbereiche emissionsfrei zu gestalten.
-        Indem wir entschlossen neue Wege gehen. Konsequent in Richtung
-        Kreislaufwirtschaft. Indem es uns als Weltgemeinschaft gelingt, die
-        Erderwärmung aufzuhalten.
-      </p>
-
-      <p>
-        Wir sind ONE PLANET, ein gemeinnütziges Umweltschutz-Start-up. Wir
-        möchten informieren, inspirieren und Forschung anregen. Für effektive
-        Lösungen zum Klimaschutz.
+      <p class="">
+        Eine prosperierende Zukunft für uns alle ist möglich – auch vor dem
+        Hintergrund einer wachsenden Weltbevölkerung und einem erhöhten Bedarf
+        an Ressourcen. Wir sind ONE PLANET, ein gemeinnütziges
+        Umweltschutz-Start-up. Wir möchten informieren, inspirieren sowie
+        Forschung anregen. <b>– ONE PLANET. ONE VISION</b>
       </p>
 
       <p class="bold">
@@ -49,21 +43,17 @@
         Was können wir konkret tun? Wie lassen sich gemeinschaftlich Mittel und
         Wege finden, um die globale Erderwärmung aufzuhalten? Was wir brauchen,
         ist eine ganzheitliche Vorstellung davon, welcher Herausforderung wir
-        uns gegenübersehen. Dass Untätigkeit keine Option ist.
+        uns gegenübersehen. Untätigkeit ist keine Option.
       </p>
 
       <p>
         Daher haben wir uns zum Ziel gesetzt, mit führenden
-        Klimawissenschaftlerinnen und Klimawissenschaftlern zu kooperieren. Mit
-        Universitäten und Forschungsinstituten. Um eine Informationsplattform
-        zur <b>Veröffentlichung sämtlicher relevanten Klimadaten</b> zu
-        schaffen. Transparent, verständlich und verantwortungsvoll. Als
-        vertrauensvolle Grundlage für einen sachlich fundierten, für uns alle
-        nachvollziehbaren gesellschaftlichen Diskurs. Eine Aufklärungsplattform,
-        an der wir unser kollektives Handeln ausrichten.
+        Klimawissenschaftlerinnen und Klimawissenschaftlern zu kooperieren. Um
+        eine Informationsplattform zur
+        <b>Veröffentlichung sämtlicher relevanten Klimadaten</b> zu schaffen.
+        Als vertrauensvolle Grundlage für einen sachlich fundierten
+        gesellschaftlichen Diskurs. Transparent und verständlich.
       </p>
-
-      <h3>ONE PLANET, ONE SPIRIT.</h3>
     </div>
 
     <!-- NEXT SECTION -->
@@ -83,37 +73,33 @@
         <h2>Forschung und Entwicklung</h2>
       </div>
     </div>
+    <vue-aos animation-class="fadeIn animated">
+      <div data-aos="zoom-out-up" class="text-section">
+        <p>
+          Vor uns steht die größte zivilisatorische Transformation der
+          Geschichte. Um diese gigantische Herausforderung zu meistern,
+          benötigen wir eine Vielzahl von Ideen und Lösungen. Als nicht
+          profitorientierte Organisation stehen uns
+          <b>keine Interessenkonflikte</b> im Weg. Wir sind in der Lage,
+          entkoppelt von jeglichen – ökonomischen wie politischen – Einflüssen
+          oder Zwängen zu agieren. Um jene Technologien zu forcieren, die aus
+          unserer Sicht die stärkste Kraft entfalten zur Gestaltung einer
+          nachhaltigen Zukunft.
+        </p>
 
-    <div class="text-section">
-      <p>
-        Vor uns steht die größte zivilisatorische Transformation der Geschichte.
-        Um diese gigantische Herausforderung zu meistern, benötigen wir eine
-        Vielzahl von Ideen und Lösungen. Als nicht profitorientierte
-        Organisation stehen uns keine Interessenkonflikte im Weg. Wir sind in
-        der Lage, entkoppelt von jeglichen – ökonomischen wie politischen –
-        Einflüssen oder Zwängen zu agieren. Um jene Technologien zu forcieren,
-        die aus unserer Sicht den größten Impact zur Gestaltung einer
-        nachhaltigen Zukunft haben.
-      </p>
+        <p>
+          So halten wir das friedliche Zusammenleben von 11 Milliarden Menschen
+          für erreichbar. Mit einem Zeithorizont von 10.000 Jahren bei
+          europäischem Lebensstandard – ohne dabei den Planeten an seine
+          Belastungsgrenzen zu bringen. Es ist die Stunde der Wissenschaft, der
+          Forschung, der Visionen und Taten.
+        </p>
 
-      <p>
-        Auf diesem Hintergrund halten wir das friedliche Zusammenleben von 11
-        Milliarden Menschen für erreichbar. Mit einem Zeithorizont von 10.000
-        Jahren bei europäischem Lebensstandard. Ohne den Planeten an seine
-        Belastungsgrenzen zu bringen. Indem wir Technologien etablieren, die
-        eine klimaneutrale Produktion, ein emissionsfreies Leben ermöglichen.
-        Zudem gilt es Wege zu finden, bereits emittiertes CO2 in das inaktive
-        Kohlenstoffkreislauf-System einzuspeisen – und somit unschädlich zu
-        machen.
-      </p>
+        <h3>ONE PLANET. ONE SPIRIT</h3>
+      </div>
+    </vue-aos>
 
-      <p class="bold">
-        Es ist die Stunde der Wissenschaft, der Forschung, der Visionen und
-        Taten.
-      </p>
-    </div>
-
-     <!-- NEXT SECTION -->
+    <!-- NEXT SECTION -->
     <div class="video-wrapper">
       <video
         id="video1"
@@ -127,37 +113,75 @@
       </video>
 
       <div class="content">
-        <h2>UNSER ZIEL</h2>
+        <h2>ONE PLANET. ONE MISSION.</h2>
       </div>
     </div>
 
     <div class="text-section">
       <p>
-       todo
+        ONE PLANET verfolgt als vordringliches Ziel, die weltweiten
+        CO2-Emissionen von jährlich 38 Gigatonnen zu neutralisieren – und
+        langfristig
+        <b
+          >den CO2-Gehalt der Atmosphäre auf ein vorindustrielles Niveau zu
+          senken</b
+        >. Das Non-Profit-Start-up setzt auf einen lebendigen Austausch; auf
+        Kommunikation, Kooperation und Konnektivität.
       </p>
 
       <p>
-       todo
+        Die Geschichte zeigt, dass wir imstande sind, Herausragendes leisten.
+        Mit der uns Menschen angeborenen Fähigkeit, innovativ und kreativ zu
+        sein, Allianzen zu bilden, unsere Kräfte zu vereinen und zu bündeln,
+        ausgerichtet auf ein Ziel: den Weg für eine nachhaltige Zukunft zu
+        ebenen.
       </p>
 
-      <p class="bold">
-        Es ist die Stunde der Wissenschaft, der Forschung, der Visionen und
-        Taten.
-      </p>
+      <h3>ONE PLANET. ONE MISSION</h3>
     </div>
 
     <!-- Context Form -->
 
-    <p>
-        KONTAKT FORM
-    </p>
-
+    <form ref="form" @submit.prevent="sendEmail">
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message"></textarea>
+      <input type="submit" value="Send" />
+    </form>
   </div>
 </template>
 
+
 <script>
+import emailjs from "@emailjs/browser";
+
 export default {
   name: "oneplanet",
+
+  data: () => ({
+    msg: "TEst"
+  }),
+  methods: {
+    sendEmail() {
+      emailjs
+        .sendForm(
+          "service_u0emxmi",
+          "template_mtj07ac",
+          this.$refs.form,
+          "CwHSxBgv6QMDgLyFA"
+        )
+        .then(
+          (result) => {
+            alert("Nachricht wurde gesendet!");
+            this.$refs.form.reset();
+          },
+          (error) => {}
+        );
+    },
+  },
 };
 </script>
 
@@ -227,7 +251,7 @@ p {
 
 h1 {
   font-family: Joschua_Gumpert_Schriftart;
-  font-size: 92px;
+  font-size: 72px;
   font-weight: bold;
   color: #0c1122;
   margin: 32px 0;
