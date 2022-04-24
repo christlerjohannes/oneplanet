@@ -73,7 +73,6 @@
         <h2>Forschung und Entwicklung</h2>
       </div>
     </div>
-    <vue-aos animation-class="fadeIn animated">
       <div data-aos="zoom-out-up" class="text-section">
         <p>
           Vor uns steht die größte zivilisatorische Transformation der
@@ -97,7 +96,6 @@
 
         <h3>ONE PLANET. ONE SPIRIT</h3>
       </div>
-    </vue-aos>
 
     <!-- NEXT SECTION -->
     <div class="video-wrapper">
@@ -161,9 +159,6 @@ import emailjs from "@emailjs/browser";
 export default {
   name: "oneplanet",
 
-  data: () => ({
-    msg: "TEst"
-  }),
   methods: {
     sendEmail() {
       emailjs
